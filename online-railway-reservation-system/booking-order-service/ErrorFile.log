@@ -1,0 +1,68 @@
+2022-09-21 16:04:28,367 [INFO] com.example.bookingorder.BookingOrderServiceApplication [restartedMain] Starting BookingOrderServiceApplication using Java 17.0.1 on DESKTOP-O8QUISG with PID 10156 (C:\Users\Dell\Downloads\online-railway-reservation-system\online-railway-reservation-system\booking-order-service\target\classes started by Dell in C:\Users\Dell\Downloads\online-railway-reservation-system\online-railway-reservation-system\booking-order-service)
+2022-09-21 16:04:28,371 [INFO] com.example.bookingorder.BookingOrderServiceApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-09-21 16:04:28,423 [INFO] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-09-21 16:04:28,423 [INFO] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-09-21 16:04:29,255 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2022-09-21 16:04:29,383 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 124 ms. Found 1 MongoDB repository interfaces.
+2022-09-21 16:04:29,636 [INFO] org.springframework.cloud.context.scope.GenericScope [restartedMain] BeanFactory id=96b1e878-1dc1-3606-8f6b-4a386f3a0b61
+2022-09-21 16:04:30,126 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 9051 (http)
+2022-09-21 16:04:30,136 [INFO] org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2022-09-21 16:04:30,136 [INFO] org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.48]
+2022-09-21 16:04:30,225 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2022-09-21 16:04:30,225 [INFO] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 1802 ms
+2022-09-21 16:04:30,354 [INFO] org.mongodb.driver.cluster [restartedMain] Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2022-09-21 16:04:30,415 [INFO] org.mongodb.driver.connection [cluster-rtt-ClusterId{value='632ae8b65660e537a8992a98', description='null'}-localhost:27017] Opened connection [connectionId{localValue:1, serverValue:3}] to localhost:27017
+2022-09-21 16:04:30,415 [INFO] org.mongodb.driver.connection [cluster-ClusterId{value='632ae8b65660e537a8992a98', description='null'}-localhost:27017] Opened connection [connectionId{localValue:2, serverValue:4}] to localhost:27017
+2022-09-21 16:04:30,416 [INFO] org.mongodb.driver.cluster [cluster-ClusterId{value='632ae8b65660e537a8992a98', description='null'}-localhost:27017] Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=13, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=22510400}
+2022-09-21 16:04:30,452 [WARN] org.springframework.data.convert.CustomConversions [restartedMain] Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+2022-09-21 16:04:30,526 [WARN] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] Unable to start LiveReload server
+2022-09-21 16:04:30,577 [WARN] org.springframework.data.convert.CustomConversions [restartedMain] Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+2022-09-21 16:04:31,302 [WARN] org.springframework.boot.autoconfigure.freemarker.FreeMarkerAutoConfiguration [restartedMain] Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2022-09-21 16:04:31,452 [INFO] org.springframework.cloud.netflix.eureka.config.DiscoveryClientOptionalArgsConfiguration [restartedMain] Eureka HTTP Client uses RestTemplate.
+2022-09-21 16:04:31,608 [WARN] org.springframework.cloud.loadbalancer.config.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger [restartedMain] Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2022-09-21 16:04:31,686 [INFO] org.springframework.cloud.netflix.eureka.InstanceInfoFactory [restartedMain] Setting initial instance status as: STARTING
+2022-09-21 16:04:31,731 [INFO] com.netflix.discovery.DiscoveryClient [restartedMain] Initializing Eureka in region us-east-1
+2022-09-21 16:04:31,736 [INFO] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [restartedMain] Resolving eureka endpoints via configuration
+2022-09-21 16:04:31,763 [INFO] com.netflix.discovery.DiscoveryClient [restartedMain] Disable delta property : false
+2022-09-21 16:04:31,763 [INFO] com.netflix.discovery.DiscoveryClient [restartedMain] Single vip registry refresh property : null
+2022-09-21 16:04:31,763 [INFO] com.netflix.discovery.DiscoveryClient [restartedMain] Force full registry fetch : false
+2022-09-21 16:04:31,763 [INFO] com.netflix.discovery.DiscoveryClient [restartedMain] Application is null : false
+2022-09-21 16:04:31,763 [INFO] com.netflix.discovery.DiscoveryClient [restartedMain] Registered Applications size is zero : true
+2022-09-21 16:04:31,763 [INFO] com.netflix.discovery.DiscoveryClient [restartedMain] Application version is -1: true
+2022-09-21 16:04:31,763 [INFO] com.netflix.discovery.DiscoveryClient [restartedMain] Getting all instance registry info from the eureka server
+2022-09-21 16:04:32,063 [INFO] com.netflix.discovery.DiscoveryClient [restartedMain] The response status is 200
+2022-09-21 16:04:32,070 [INFO] com.netflix.discovery.DiscoveryClient [restartedMain] Starting heartbeat executor: renew interval is: 30
+2022-09-21 16:04:32,076 [INFO] com.netflix.discovery.InstanceInfoReplicator [restartedMain] InstanceInfoReplicator onDemand update allowed rate per min is 4
+2022-09-21 16:04:32,088 [INFO] com.netflix.discovery.DiscoveryClient [restartedMain] Discovery Client initialized at timestamp 1663756472087 with initial instances count: 1
+2022-09-21 16:04:32,089 [INFO] org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry [restartedMain] Registering application BOOKING-ORDER-SERVICE with eureka with status UP
+2022-09-21 16:04:32,090 [INFO] com.netflix.discovery.DiscoveryClient [restartedMain] Saw local status change event StatusChangeEvent [timestamp=1663756472090, current=UP, previous=STARTING]
+2022-09-21 16:04:32,091 [INFO] com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_BOOKING-ORDER-SERVICE/DESKTOP-O8QUISG:booking-order-service:9051: registering service...
+2022-09-21 16:04:32,131 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 9051 (http) with context path ''
+2022-09-21 16:04:32,132 [INFO] org.springframework.cloud.netflix.eureka.serviceregistry.EurekaAutoServiceRegistration [restartedMain] Updating port to 9051
+2022-09-21 16:04:32,141 [INFO] com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_BOOKING-ORDER-SERVICE/DESKTOP-O8QUISG:booking-order-service:9051 - registration status: 204
+2022-09-21 16:04:32,435 [INFO] com.example.bookingorder.BookingOrderServiceApplication [restartedMain] Started BookingOrderServiceApplication in 4.613 seconds (JVM running for 5.402)
+2022-09-21 16:09:31,771 [INFO] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-09-21 16:14:31,777 [INFO] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-09-21 16:17:45,106 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-9051-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-09-21 16:17:45,107 [INFO] org.springframework.web.servlet.DispatcherServlet [http-nio-9051-exec-1] Initializing Servlet 'dispatcherServlet'
+2022-09-21 16:17:45,108 [INFO] org.springframework.web.servlet.DispatcherServlet [http-nio-9051-exec-1] Completed initialization in 1 ms
+2022-09-21 16:17:45,160 [INFO] com.example.bookingorder.controller.BookingOrderController [http-nio-9051-exec-1] -----------------------Ticket Details by entering Username-------------------
+2022-09-21 16:17:45,232 [INFO] org.mongodb.driver.connection [http-nio-9051-exec-1] Opened connection [connectionId{localValue:3, serverValue:28}] to localhost:27017
+2022-09-21 16:19:31,780 [INFO] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-09-21 16:19:31,917 [INFO] com.example.bookingorder.controller.BookingOrderController [http-nio-9051-exec-3] -----------------------Ticket Booked-------------------
+2022-09-21 16:20:29,885 [INFO] com.example.bookingorder.controller.BookingOrderController [http-nio-9051-exec-4] -----------------------Ticket Details by entering Username-------------------
+2022-09-21 16:20:50,603 [INFO] com.example.bookingorder.controller.BookingOrderController [http-nio-9051-exec-5] -----------------------Ticket Booking canceled-------------------
+2022-09-21 16:24:31,781 [INFO] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-09-21 16:29:31,784 [INFO] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-09-21 16:34:31,785 [INFO] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-09-21 16:39:31,787 [INFO] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-09-21 16:40:11,172 [INFO] org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(45)-127.0.0.1] Application shutdown requested.
+2022-09-21 16:40:11,174 [INFO] org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry [RMI TCP Connection(45)-127.0.0.1] Unregistering application BOOKING-ORDER-SERVICE with eureka with status DOWN
+2022-09-21 16:40:11,174 [INFO] com.netflix.discovery.DiscoveryClient [RMI TCP Connection(45)-127.0.0.1] Saw local status change event StatusChangeEvent [timestamp=1663758611174, current=DOWN, previous=UP]
+2022-09-21 16:40:11,174 [INFO] com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_BOOKING-ORDER-SERVICE/DESKTOP-O8QUISG:booking-order-service:9051: registering service...
+2022-09-21 16:40:11,180 [INFO] com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_BOOKING-ORDER-SERVICE/DESKTOP-O8QUISG:booking-order-service:9051 - registration status: 204
+2022-09-21 16:40:11,210 [INFO] org.mongodb.driver.connection [RMI TCP Connection(45)-127.0.0.1] Closed connection [connectionId{localValue:3, serverValue:28}] to localhost:27017 because the pool has been closed.
+2022-09-21 16:40:11,211 [INFO] com.netflix.discovery.DiscoveryClient [RMI TCP Connection(45)-127.0.0.1] Shutting down DiscoveryClient ...
+2022-09-21 16:40:14,240 [INFO] com.netflix.discovery.DiscoveryClient [RMI TCP Connection(45)-127.0.0.1] Unregistering ...
+2022-09-21 16:40:14,246 [INFO] com.netflix.discovery.DiscoveryClient [RMI TCP Connection(45)-127.0.0.1] DiscoveryClient_BOOKING-ORDER-SERVICE/DESKTOP-O8QUISG:booking-order-service:9051 - deregister  status: 200
+2022-09-21 16:40:14,304 [INFO] com.netflix.discovery.DiscoveryClient [RMI TCP Connection(45)-127.0.0.1] Completed shut down of DiscoveryClient
